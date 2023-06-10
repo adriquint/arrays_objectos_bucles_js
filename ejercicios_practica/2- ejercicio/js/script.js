@@ -25,7 +25,13 @@ const icono_agua = "./images/water_type.png";
 const estiloClase_agua = "agua"
 
 // Alumno: Genere un objeto llamado "tipoAgua" con todos los datos del pokemon tipo agua
-
+const tipoAgua = {
+    titulo: titulo_agua,
+    descripcion: descripcion_agua,
+    icono: icono_agua,
+    estiloClase: estiloClase_agua,
+}
+console.log(tipoAgua)
 
 // Tipo planta
 const titulo_planta = "Tipo Planta"
@@ -34,6 +40,13 @@ const icono_planta = "./images/grass_type.png";
 const estiloClase_planta = "planta"
 
 // Alumno: Genere un objeto llamado "tipoPlanta" con todos los datos del pokemon tipo planta
+const tipoPlanta = {
+    titulo: titulo_planta,
+    descripcion: descripcion_planta,
+    icono: icono_planta,
+    estiloClase: estiloClase_planta,
+}
+console.log(tipoPlanta)
 
 // Tipo Electricidad
 const titulo_electrico = "Tipo Electricidad"
@@ -42,6 +55,13 @@ const icono_electrico = "./images/electric_type.png";
 const estiloClase_electrico = "electricidad"
 
 // Alumno: Genere un objeto llamado "tipoElectricidad" con todos los datos del pokemon tipo electricidad
+const tipoElectricidad = {
+    titulo: titulo_electrico,
+    descripcion: descripcion_electrico,
+    icono: icono_electrico,
+    estiloClase: estiloClase_electrico,
+}
+console.log(tipoElectricidad)
 
 // Tipo normal
 const titulo_normal = "Tipo Normal"
@@ -50,6 +70,13 @@ const icono_normal = "./images/normal_type.png";
 const estiloClase_normal = "normal"
 
 // Alumno: Genere un objeto llamado "tipoNormal" con todos los datos del pokemon tipo normal
+const tipoNormal = {
+    titulo: titulo_normal,
+    descripcion: descripcion_normal,
+    icono: icono_normal,
+    estiloClase: estiloClase_normal,
+}
+console.log(tipoNormal)
 
 // Tipo fuego
 const titulo_fuego = "Tipo Fuego"
@@ -59,5 +86,10 @@ const estiloClase_fuego = "normal"
 
 
 // Alumno: Genere un objeto llamado "tipoFuego" con todos los datos del pokemon tipo fuego
-
-
+const tipoFuego = {
+    titulo: titulo_fuego,
+    descripcion: descripcion_fuego,
+    icono: icono_fuego,
+    estiloClase: estiloClase_fuego,
+}
+console.log(tipoFuego)
