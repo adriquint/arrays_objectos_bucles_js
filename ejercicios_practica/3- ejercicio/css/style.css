@@ -96,3 +96,15 @@ article img {
     rgba(122, 199, 76, 1) 100%
   );
 }
+
+.open div:nth-child(2) {
+  opacity: 1;
+  height: 250px;
+  transition: all 1s ease-out;
+}
+
+.closed div:nth-child(2) {
+  opacity: 0;
+  height: 0px;
+  transition: all 0.5s ease-out;
+}
