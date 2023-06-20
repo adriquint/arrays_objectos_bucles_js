@@ -42,3 +42,36 @@ en "section".
 */
 
 /* Comienza a escribir su código aquí */
+
+let accumulator = ""
+
+for (const poke of data) {
+  accumulator += `
+  <article class="claseDinamica">
+        <img
+          src=${poke.thumbnail}
+          class="icon-type"
+          alt="icon type"
+        />
+        <p>
+          ${poke.name}
+        </p>
+      </article>
+  `
+}
+
+const pokesDinamicos = document.querySelector("section")
+pokesDinamicos.innerHTML = accumulator
+
+const plantasDinamicas = document.getElementsByClassName("claseDinamica")
+
+for (const plantaDinamica of plantasDinamicas) {
+  
+  plantaDinamica.addEventListener("mouseover", function () {
+    plantaDinamica.classList.add("planta");
+  });
+
+  plantaDinamica.addEventListener("mouseout", function () {
+    plantaDinamica.classList.remove("planta");
+  });
+}
